@@ -8,9 +8,10 @@ export default function HeaderNavbar() {
     return (
         <Navbar expand="sm" className={styles.nav}>
             <section className="container">
-                <Link href="/">
+                <Link href="">
                     <a>
-                        <img src="/images/logo1.png" alt="wtfresume logo (resume builder)" className={styles.logo} />
+                        <p >BY ATHARVA WAGH A_69</p>
+                        <img src="/sunset.png" alt="logo" className={styles.logo} />
                     </a>
                 </Link>
 
@@ -24,14 +25,6 @@ export default function HeaderNavbar() {
                             <Link href="/resume-builder">
                                 <a>Create My Resume</a>
                             </Link>
-                        </div>
-
-                        <div className={styles.navItem}>EN</div>
-
-                        <div className={styles.navItem}>
-                            <a href="https://github.com/sramezani/resume-builder" target="_blank" rel="noopener noreferrer">
-                                github
-                            </a>
                         </div>
                     </Nav>
                 </Navbar.Collapse>

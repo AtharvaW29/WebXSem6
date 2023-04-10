@@ -14,7 +14,10 @@ export default function Home() {
                 <section className={['row', styles.first].join(' ')}>
                     <div className={['col-md-6', styles.firstLeft].join(' ')}>
                         <h1>Who cares who you are</h1>
-                        <p>design your resume and prove yourself</p>
+                        <p>design your resume and prove yourself<br/>
+                        <br/>
+                        By Atharva Wagh , Roll No.:69
+                        </p>
 
                         <div className={styles.crBtn}>
                             <Link href="/resume-builder">
@@ -29,7 +32,7 @@ export default function Home() {
 
                 <section className={[styles.second].join(' ')}>
                     <div className={styles.secondTitle}>
-                        <h2>Why trying WTFResume?</h2>
+                        <h2>Why try Resume Builder?</h2>
                     </div>
 
                     <div className={['row justify-content-md-center', styles.itemsRow].join(' ')}>
@@ -101,31 +104,6 @@ export default function Home() {
                                 </article>
                             </div>
                         </div>
-                    </div>
-                </section>
-
-                <section className={[styles.third].join(' ')}>
-                    <h2>How does it work?</h2>
-                    <div className="row justify-content-md-center">
-                        <article className={['col-md-6 row justify-content-md-center', styles.thirdVideo].join(' ')}>
-                            <iframe
-                                width="100%"
-                                height="600"
-                                src="https://www.youtube.com/embed/u5eIsENOLUc?rel=0&showinfo=1"
-                                frameBorder="0"
-                                allowFullScreen
-                            ></iframe>
-                        </article>
-                    </div>
-                </section>
-
-                <section className={[styles.forth].join(' ')}>
-                    <p>You can save your data and use it in the future.</p>
-                    <p className={styles.bold}>what do you think! isn&lsquo;t it amazing?</p>
-                    <div className={styles.crBtn}>
-                        <Link href="/resume-builder">
-                            <a>WTF! Show me how</a>
-                        </Link>
                     </div>
                 </section>
             </div>
